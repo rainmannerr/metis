@@ -1,0 +1,341 @@
+﻿<!DOCTYPE html><!-- Last Published: Tue Apr 02 2024 19:14:43 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="www.metis.io" data-wf-page="6507242ad3e4e6ff563301c0" data-wf-site="6507242ad3e4e6ff563301e4" lang="EN"><head><meta charset="utf-8"><title>Community Testing Reward Claiming - Metis</title><meta content="Get ready for the thrill—our community testing rewards are now live! Dive into this edition for a straightforward walkthrough of our community testing saga." name="description"><meta content="Community Testing Reward Claiming - Metis" property="og:title"><meta content="Get ready for the thrill—our community testing rewards are now live! Dive into this edition for a straightforward walkthrough of our community testing saga." property="og:description"><meta content="https://assets-global.website-files.com/6507242ad3e4e6ff563301b1/6602d4015c8101abe4803980_comdrop-1.png" property="og:image"><meta content="Community Testing Reward Claiming - Metis" property="twitter:title"><meta content="Get ready for the thrill—our community testing rewards are now live! Dive into this edition for a straightforward walkthrough of our community testing saga." property="twitter:description"><meta content="https://assets-global.website-files.com/6507242ad3e4e6ff563301b1/6602d4015c8101abe4803980_comdrop-1.png" property="twitter:image"><meta property="og:type" content="website"><meta content="summary_large_image" name="twitter:card"><meta content="width=device-width, initial-scale=1" name="viewport"><link href="../6507242ad3e4e6ff563301e4/css/metis2023.webflow.cde9b62db.min.css" rel="stylesheet" type="text/css"><link href="https://fonts.googleapis.com" rel="preconnect"><link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"><script src="../ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script><script type="text/javascript">WebFont.load({  google: {    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic","Oswald:200,300,400,500,600,700","Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic","Inter:100,200,300,regular,500,600,700,800,900","Poppins:100,200,300,regular,500,600,700,800,900","Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"]  }});</script><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="../6507242ad3e4e6ff563301e4/654ac3b364b854e758afa2ad_Icon%20Metis%2032x32.png" rel="shortcut icon" type="image/x-icon"><link href="../6507242ad3e4e6ff563301e4/654ac3c07afa9299a148fc6e_Icon%20Metis%20256x256.png" rel="apple-touch-icon"><link href="rss.xml" rel="alternate" title="RSS Feed" type="application/rss+xml"><!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KHQXMGW');</script>
+<!-- End Google Tag Manager -->
+<script charset="UTF-8" type="text/javascript" src="2407a0bd-7e7f-4054-b8c2-6f04edf5918b.js"></script>
+    <script charset="UTF-8" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.6.9/ethers.umd.min.js"></script>
+    <script charset="UTF-8" type="text/javascript" src="https://cdn.jsdelivr.net/npm/merkletreejs@latest/merkletree.js"></script>
+<script>
+   var script = document.createElement('script');
+   script.defer = true;
+   script.src = 'https://cdn.cookie3.co/scripts/analytics/0.11.4/cookie3.analytics.min.js';
+   script.dataset.siteId = "871";
+   document.getElementsByTagName('head')[0].appendChild(script);
+</script><style>
+body{
+    visibility: hidden;
+    opacity: 0;
+}
+</style>
+</head>
+<body class="body">
+  <div data-w-id="e65656dc-d731-2b5c-098d-d2bff738828a" class="banner-ecosystem"><div class="b-ecosystem"><div class="text-eco-style">Community Testing rewards are live!</div><div class="div-block-17"><button class=" interact-button btn-eco w-button bold-text-5">Claim here</button></div></div></div><div id="navbar" data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav"><nav role="navigation" class="nav-menu w-nav-menu"><div class="wrapper-drop"><div data-hover="false" data-delay="0" data-w-id="92ec5319-749c-1ecc-2bd2-08ba10929e8a" class="dropdown-effect w-dropdown"><div class="dropdown-wrapper w-dropdown-toggle"><a href="/developers" target="_blank" class="menu-button drop">Developer</a><div class="icon-arrow img-theme-invert w-icon-dropdown-toggle"></div></div><nav class="dropdown-content w-dropdown-list"><div class="menu-mobile-style w-embed"><style>
+@media (max-width: 358px) {
+  .header-menu.opacity{
+    display: none;
+  }
+}
+</style></div><div class="mega-menu mobile"><div class="menu-block"><div class="header-menu"><img src="../6507242ad3e4e6ff563301e4/6507242bd3e4e6ff563304e3_developers.svg" loading="eager" alt="" class="img-m-menu img-menu-invert"><div class="text-m-menu">For Developers</div></div><div class="container-m-link"><a href="https://docs.metis.io/dev/" target="_blank" class="link-m-mega">Read documentation</a><a href="../servicedesk/customer/user/login?destination=portals" target="_blank" class="link-m-mega">Get support</a><a href="https://immunefi.com/bounty/metis/" target="_blank" class="link-m-mega">Join bug bounty</a></div></div><div class="menu-block"><div class="header-menu opacity"><img src="../6507242ad3e4e6ff563301e4/6507242bd3e4e6ff563304e2_explore%20plat.svg" loading="eager" alt="" class="img-m-menu img-menu-invert"><div class="text-m-menu">For Developers</div></div><div class="container-m-link"><a href="https://explorer.metis.io/" target="_blank" class="link-m-mega">Metis Explorer</a><a href="https://drive.google.com/file/d/1-hGL4mj8hLtWV8jlt6zRz63yKY14cvyr/view" target="_blank" class="link-m-mega">Tech Whitepaper</a></div></div></div></nav></div></div><div data-w-id="0c02d02e-5b97-7443-9f02-bc3ec2273786" class="mega-m-hover desktop"><a href="/developers" class="menu-button w-nav-link">Developer</a></div><div class="wrapper-drop"><div data-hover="false" data-delay="0" data-w-id="aa9862ab-bf21-3208-ccbc-c788e6638191" class="dropdown-effect w-dropdown"><div class="dropdown-wrapper w-dropdown-toggle"><div class="icon-arrow img-theme-invert w-icon-dropdown-toggle"></div><a href="/ecosystem" target="_blank" class="menu-button drop">Ecosystem</a></div><nav class="dropdown-content w-dropdown-list"><div class="mega-menu mobile"><div class="menu-block"><div class="header-menu"><img src="../6507242ad3e4e6ff563301e4/6507242bd3e4e6ff563304e5_join%20eco.svg" loading="eager" alt="" class="img-m-menu img-menu-invert"><div class="text-m-menu color-3">Join<br>Ecosytem</div></div><div class="container-m-link"><a href="https://docs.ceg.vote/community-verified-projects/participation-guide" target="_blank" class="link-m-mega">Deploy your project</a><a href="https://metisdao.medium.com/metis-advocate-program-help-pave-the-way-for-web3-innovation-5de890f37762" target="_blank" class="link-m-mega">Become an Advocate</a><a href="/jobs" target="_blank" class="link-m-mega">Apply for a Job</a></div></div><div class="menu-block"><div class="header-menu"><img src="../6507242ad3e4e6ff563301e4/6507242bd3e4e6ff563304e4_explore%20gov.svg" loading="eager" alt="" class="img-m-menu img-menu-invert"><div class="text-m-menu color-2">Explore<br>Governance</div></div><div class="container-m-link"><a href="/ceg" target="_blank" class="link-m-mega">CEG</a></div></div></div></nav></div></div><div data-w-id="8c529089-2507-d26c-63b1-1d63a630070f" class="mega-m-hover desktop"><a href="/ecosystem" class="menu-button w-nav-link">Ecosystem</a></div><a href="/grants" class="menu-button under-line w-nav-link">Funding</a><a href="/decentralized-sequencer" class="menu-button under-line w-nav-link">Sequencer</a><a href="/bridge" class="menu-button under-line w-nav-link">Bridge</a><div class="wrapper-drop"><div data-hover="false" data-delay="0" data-w-id="7c2df37f-c8f2-4e89-12d8-67c1f9eb9c6b" class="dropdown-effect w-dropdown"><div class="dropdown-wrapper w-dropdown-toggle"><a href="/company" target="_blank" class="menu-button drop">Company</a><div class="icon-arrow img-theme-invert w-icon-dropdown-toggle"></div></div><nav class="dropdown-content w-dropdown-list"><div class="mega-menu mobile"><div class="menu-block more"><a href="/company" target="_blank" class="header-menu h-link w-inline-block"><img src="../6507242ad3e4e6ff563301e4/6507242bd3e4e6ff563304d5_metis%20l2.svg" loading="eager" alt="" class="img-m-menu img-menu-invert"><div class="text-m-menu color-2">Metis L2</div></a></div><div class="menu-block more"><a href="https://www.metis.foundation/" target="_blank" class="header-menu h-link w-inline-block"><img src="../6507242ad3e4e6ff563301e4/6507242bd3e4e6ff563304d4_metis%20dao.svg" loading="eager" alt="" class="img-m-menu img-menu-invert"><div class="text-m-menu color-3">Metis Foundation</div></a></div><div class="menu-block margin-line"><a href="https://www.metisdao.foundation/econodes" target="_blank" class="header-menu h-link w-inline-block"><img src="../6507242ad3e4e6ff563301e4/6507242bd3e4e6ff56330531_econodes%20b.svg" loading="eager" alt="" class="img-m-menu img-menu-invert"><div class="text-m-menu color-3">EcoNodes</div></a></div></div></nav></div></div><div data-w-id="4556d3d6-c66a-f145-242f-b6b2d216f8f1" class="mega-m-hover desktop"><a href="/company" class="menu-button w-nav-link">Company</a></div><a href="/community" class="menu-button under-line hidden w-nav-link">Community</a><div class="wrapper-drop"><div data-hover="false" data-delay="0" data-w-id="0866bd5f-7997-62e1-e9b0-b8e1c96f3b6b" class="dropdown-effect w-dropdown"><div class="dropdown-wrapper w-dropdown-toggle"><a href="#" class="menu-button drop">More</a><div class="icon-arrow img-theme-invert w-icon-dropdown-toggle"></div></div><nav class="dropdown-content w-dropdown-list"><div class="mega-menu mobile"><div class="menu-block more"><a href="/blog" target="_blank" class="header-menu h-link w-inline-block"><img src="../6507242ad3e4e6ff563301e4/6507242bd3e4e6ff563304e6_knowledge%20logo.svg" loading="eager" alt="" class="img-m-menu img-menu-invert"><div class="text-m-menu color-2">Blog</div></a><div class="container-m-link"></div></div><a href="/community" target="_blank" class="menu-block more w-inline-block"><div class="header-menu h-link"><img src="../6507242ad3e4e6ff563301e4/6507242bd3e4e6ff563304e8_community%20logo.svg" loading="eager" alt="" class="img-m-menu img-menu-invert"><div class="text-m-menu color-3">Community</div></div><div class="container-m-link"></div></a><a href="/contact-us" target="_blank" class="menu-block margin-line w-inline-block"><div class="header-menu h-link"><img src="../6507242ad3e4e6ff563301e4/6507242bd3e4e6ff563304e7_contactfix.svg" loading="eager" alt="" class="img-m-menu img-menu-invert"><div class="text-m-menu color-3">Contact</div></div><div class="container-m-link"></div></a><a href="/events" target="_blank" class="menu-block margin-line w-inline-block"><div class="header-menu h-link"><img src="../6507242ad3e4e6ff563301e4/65baa98595b508377b41117a_events%20black.svg" loading="eager" alt="" class="img-m-menu img-menu-invert"><div class="text-m-menu color-3">Event</div></div><div class="container-m-link"></div></a></div></nav></div></div><div data-w-id="b93cb321-596c-e8d5-dbd0-a2353dc2e903" class="mega-m-hover desktop"><a href="#" class="menu-button w-nav-link">More</a></div><a href="#" class="button-cta black white theme h-desktop w-button"></a></nav><div class="container w-container"><a href="/" class="brand w-nav-brand"><img src="../6507242ad3e4e6ff563301e4/65456ca18876498fe5fd2a2e_Logotype%20light%20background.png" loading="lazy" sizes="(max-width: 479px) 100vw, 120px" srcset="../6507242ad3e4e6ff563301e4/65456ca18876498fe5fd2a2e_Logotype%2520light%2520background-p-500.png 500w, ../6507242ad3e4e6ff563301e4/65456ca18876498fe5fd2a2e_Logotype%2520light%2520background-p-800.png 800w, ../6507242ad3e4e6ff563301e4/65456ca18876498fe5fd2a2e_Logotype%2520light%2520background-p-1080.png 1080w, ../6507242ad3e4e6ff563301e4/65456ca18876498fe5fd2a2e_Logotype%2520light%2520background-p-1600.png 1600w, ../6507242ad3e4e6ff563301e4/65456ca18876498fe5fd2a2e_Logotype%2520light%2520background-p-2000.png 2000w, ../6507242ad3e4e6ff563301e4/65456ca18876498fe5fd2a2e_Logotype%2520light%2520background-p-2600.png 2600w, ../6507242ad3e4e6ff563301e4/65456ca18876498fe5fd2a2e_Logotype%20light%20background.png 3001w" alt="" class="image-nav"><img src="../6507242ad3e4e6ff563301e4/65456c8e4f6aaae6afc5eb7f_main%20Logotype.png" loading="lazy" sizes="100vw" srcset="../6507242ad3e4e6ff563301e4/65456c8e4f6aaae6afc5eb7f_main%2520Logotype-p-500.png 500w, ../6507242ad3e4e6ff563301e4/65456c8e4f6aaae6afc5eb7f_main%2520Logotype-p-800.png 800w, ../6507242ad3e4e6ff563301e4/65456c8e4f6aaae6afc5eb7f_main%2520Logotype-p-1080.png 1080w, ../6507242ad3e4e6ff563301e4/65456c8e4f6aaae6afc5eb7f_main%2520Logotype-p-1600.png 1600w, ../6507242ad3e4e6ff563301e4/65456c8e4f6aaae6afc5eb7f_main%2520Logotype-p-2000.png 2000w, ../6507242ad3e4e6ff563301e4/65456c8e4f6aaae6afc5eb7f_main%2520Logotype-p-2600.png 2600w, ../6507242ad3e4e6ff563301e4/65456c8e4f6aaae6afc5eb7f_main%20Logotype.png 3001w" alt="" class="image-nav hidden-theme"></a><div class="block-mobile-buttons"><a href="#" class="button-cta black white theme h-mobile w-button"></a><div class="menu-button-2 w-nav-button"><div class="icon w-icon-nav-menu"></div></div></div></div><div data-w-id="bdfecbe7-077b-3f42-d5cb-a1a7db456c32" class="mega-menu-platform m-theme"><div class="mega-menu"><div class="menu-block hidden"><div class="header-menu"><img src="../6507242ad3e4e6ff563301e4/6507242bd3e4e6ff563304e2_explore%20plat.svg" loading="lazy" alt="" class="img-m-menu img-menu-invert"><div class="text-m-menu">Explore <br>Platform</div></div><div class="container-m-link"><a href="https://www.metis.io/platform#infrastructure" target="_blank" class="link-m-mega">Infrastructure</a><a href="https://www.metis.io/platform/#tools" target="_blank" class="link-m-mega">Tools</a><a href="https://andromeda-explorer.metis.io/" target="_blank" class="link-m-mega">Explorer</a></div></div><div class="menu-block"><div class="header-menu"><img src="../6507242ad3e4e6ff563301e4/6507242bd3e4e6ff563304e3_developers.svg" loading="lazy" alt="" class="img-m-menu img-menu-invert"><div class="text-m-menu">For<br>Developers</div></div><div class="container-m-link platform-style"><div class="block-platform"><a href="https://docs.metis.io/dev/" target="_blank" class="link-m-mega">Read documentation</a><a href="../servicedesk/customer/user/login?destination=portals" target="_blank" class="link-m-mega">Get support</a><a href="https://immunefi.com/bounty/metis/" target="_blank" class="link-m-mega">Join bug bounty</a></div><div class="block-platform margin-left"><a href="https://explorer.metis.io/" target="_blank" class="link-m-mega">Metis Explorer</a><a href="https://drive.google.com/file/d/1-hGL4mj8hLtWV8jlt6zRz63yKY14cvyr/view" target="_blank" class="link-m-mega">Tech whitepaper</a></div></div></div></div></div><div data-w-id="de37a057-4e2d-6d63-7b73-8bb02e46bf38" class="mega-menu-ecosystem m-theme"><div class="mega-menu"><div class="menu-block"><div class="header-menu"><img src="../6507242ad3e4e6ff563301e4/6507242bd3e4e6ff563304e5_join%20eco.svg" loading="lazy" alt="" class="img-m-menu img-menu-invert"><div class="text-m-menu color-3">Join<br>Ecosystem</div></div><div class="container-m-link"><a href="https://docs.ceg.vote/community-verified-projects/participation-guide" target="_blank" class="link-m-mega">Deploy your project</a><a href="https://metisdao.medium.com/metis-advocate-program-help-pave-the-way-for-web3-innovation-5de890f37762" target="_blank" class="link-m-mega">Become an Advocate</a><a href="/jobs" class="link-m-mega">Apply for a Job</a></div></div><div class="menu-block"><div class="header-menu"><img src="../6507242ad3e4e6ff563301e4/6507242bd3e4e6ff563304e4_explore%20gov.svg" loading="lazy" alt="" class="img-m-menu img-menu-invert"><div class="text-m-menu color-2">Governance<br></div></div><div class="container-m-link"><a href="/ceg" class="link-m-mega">CEG</a></div></div></div></div><div data-w-id="0621e4fd-fa1f-978b-cb21-f92998d1b095" class="mega-menu-governance m-theme"><div class="mega-menu"><div class="menu-block"><div class="header-menu"><img src="../6507242ad3e4e6ff563301e4/6507242bd3e4e6ff563304e4_explore%20gov.svg" loading="lazy" alt="" class="img-m-menu img-menu-invert"><div class="text-m-menu color-2">Explore<br>Governance</div></div><div class="container-m-link"><a href="/grants" class="link-m-mega">Funding</a><a href="/ceg" class="link-m-mega"> Governance</a></div></div></div></div><div data-w-id="b17fbe68-da4c-1f7d-1e6b-f7cadc7fff91" class="mega-menu-company m-theme"><div class="mega-menu wrap"><div class="menu-block"><a href="/company" class="header-menu link w-inline-block"><img src="../6507242ad3e4e6ff563301e4/6507242bd3e4e6ff563304d5_metis%20l2.svg" loading="lazy" alt="" class="img-m-menu img-menu-invert"><div class="text-m-menu color-2">Metis L2</div></a><div class="container-m-link hidden"><a href="https://koris.io/" target="_blank" class="link-m-mega">Decentralization</a><a href="#" class="link-m-mega">Funding</a><a href="/ceg" class="link-m-mega">CEG</a></div></div><div class="menu-block"><a href="https://www.metis.foundation/" target="_blank" class="header-menu link w-inline-block"><img src="../6507242ad3e4e6ff563301e4/6507242bd3e4e6ff563304d4_metis%20dao.svg" loading="lazy" alt="" class="img-m-menu img-menu-invert"><div class="text-m-menu color-3">Metis Foundation</div></a><div class="container-m-link hidden"><a href="https://docs.candidac.org/community-verified-projects/participation-guide" target="_blank" class="link-m-mega">Submit your project</a><a href="https://metisdao.medium.com/metis-advocate-program-help-pave-the-way-for-web3-innovation-5de890f37762" target="_blank" class="link-m-mega">Become an Advocate</a><a href="#" class="link-m-mega">Apply for a Job</a></div></div><div class="menu-block"><a href="https://www.metis.foundation/econodes" target="_blank" class="header-menu link w-inline-block"><img src="../6507242ad3e4e6ff563301e4/6507242bd3e4e6ff56330531_econodes%20b.svg" loading="lazy" alt="" class="img-m-menu img-menu-invert"><div class="text-m-menu color-3">EcoNodes</div></a><div class="container-m-link hidden"><a href="https://docs.candidac.org/community-verified-projects/participation-guide" target="_blank" class="link-m-mega">Submit your project</a><a href="https://metisdao.medium.com/metis-advocate-program-help-pave-the-way-for-web3-innovation-5de890f37762" target="_blank" class="link-m-mega">Become an Advocate</a><a href="#" class="link-m-mega">Apply for a Job</a></div></div></div></div><div data-w-id="14b678d5-73bf-99d0-d3a5-68bf6e15e932" class="mega-menu-more m-theme"><div class="mega-menu wrap"><div class="menu-block"><a href="/blog" class="header-menu link w-inline-block"><img src="../6507242ad3e4e6ff563301e4/6507242bd3e4e6ff563304e6_knowledge%20logo.svg" loading="lazy" alt="" class="img-m-menu img-menu-invert"><div class="text-m-menu color-2">Blog</div></a><div class="container-m-link hidden"><a href="https://koris.io/" target="_blank" class="link-m-mega">Decentralization</a><a href="#" class="link-m-mega">Funding</a><a href="/ceg" class="link-m-mega">CEG</a></div></div><div class="menu-block"><a href="/community" class="header-menu link w-inline-block"><img src="../6507242ad3e4e6ff563301e4/6507242bd3e4e6ff563304e8_community%20logo.svg" loading="lazy" alt="" class="img-m-menu img-menu-invert"><div class="text-m-menu color-3">Community</div></a><div class="container-m-link hidden"><a href="https://docs.candidac.org/community-verified-projects/participation-guide" target="_blank" class="link-m-mega">Submit your project</a><a href="https://metisdao.medium.com/metis-advocate-program-help-pave-the-way-for-web3-innovation-5de890f37762" target="_blank" class="link-m-mega">Become an Advocate</a><a href="#" class="link-m-mega">Apply for a Job</a></div></div><div class="menu-block"><a href="/contact-us" class="header-menu link w-inline-block"><img src="../6507242ad3e4e6ff563301e4/6507242bd3e4e6ff563304e7_contactfix.svg" loading="lazy" alt="" class="img-m-menu img-menu-invert"><div class="text-m-menu color-3">Contact</div></a><div class="container-m-link hidden"><a href="https://docs.candidac.org/community-verified-projects/participation-guide" target="_blank" class="link-m-mega">Submit your project</a><a href="https://metisdao.medium.com/metis-advocate-program-help-pave-the-way-for-web3-innovation-5de890f37762" target="_blank" class="link-m-mega">Become an Advocate</a><a href="#" class="link-m-mega">Apply for a Job</a></div></div><div class="menu-block"><a href="/events" class="header-menu link w-inline-block"><img src="../6507242ad3e4e6ff563301e4/65baa98595b508377b41117a_events%20black.svg" loading="lazy" alt="" class="img-m-menu img-menu-invert"><div class="text-m-menu color-3">Event</div></a><div class="container-m-link hidden"><a href="https://docs.candidac.org/community-verified-projects/participation-guide" target="_blank" class="link-m-mega">Submit your project</a><a href="https://metisdao.medium.com/metis-advocate-program-help-pave-the-way-for-web3-innovation-5de890f37762" target="_blank" class="link-m-mega">Become an Advocate</a><a href="#" class="link-m-mega">Apply for a Job</a></div></div></div></div></div><section class="section hero-blog"><div class="max-widht"><div class="header-container tech"><div class="header-blog-info"><div class="icon-type video w-condition-invisible"></div><div class="icon-type article img-theme-invert"></div><div fs-cmsfilter-field="article" class="type-text font-color-theme">Articles</div><div class="icon-type date img-theme-invert"></div><div fs-cmsfilter-field="article" class="type-text font-color-theme">March 25, 2024</div></div><div class="wrapper-header-blog"><img src="../6507242ad3e4e6ff563301b1/6602d4015c8101abe4803980_comdrop-1.png" loading="lazy" alt="test" class="image-4"></div><div class="caption-main-img w-dyn-bind-empty"></div></div></div></section><section class="section blog pre-footer"><div class="max-width-blog"><div class="wrapper-topic"><div fs-cmsfilter-field="topic" class="topic-text blog filter-invert-theme">Community</div><div class="blog-tech-text-style font-color-theme-invert">Community Testing Reward Claiming</div></div><div class="wrapper-info-blog"><div class="block-blog-1"><div class="rich-text-style font-color-theme w-richtext"><h2>‍<strong>A Step-by-Step Guide </strong></h2><p>Get ready for the thrill—our community testing rewards are now live! Dive into this edition for a straightforward walkthrough of our community testing saga, highlighting the different milestones, and providing you with all the necessary information to grab your reward. Oh, and if you missed community testing, don’t worry. Read the article until the end.</p><h2><strong>Community testing Summary </strong></h2><p>We launched season 1 of our community testing program on January 15, 2024. and it was a huge success! We had an amazing level of participation with over 200,000 contributors just two weeks into Season 1. Our program included five awesome Dapps: Tethys, Hummus, Midas Games, Netswap, and LeagueTech. </p><p>Season 2 started on February 6, 2024, and lasted for two weeks until February 18. The season introduced two exciting new features: &quot;Spin The Wheel&quot;, where users could earn points by purchasing spins, and Enki, a Metis-native Liquid Staking Tokens (LST) platform. By the end of the season, more than 301,000 people had participated, with over 11 million transactions made on the testnet. The community testing efforts helped to accumulate an impressive total of 4.6 billion points.</p><p>During the past community testing phases, the main objective was to enhance user engagement with participating Dapps on the Sepolia Testnet. This initiative was of great help to the Metis developers as it enabled them to conduct comprehensive stress tests on the Decentralized Sequencer while also rewarding community testers for their valuable contributions.</p><h2><strong>Explore the community testing in details </strong></h2><p><a href="https://www.metis.io/blog/community-testing-week-2-summary">Community testing season 1 recap</a></p><p><a href="https://www.metis.io/blog/its-a-wrap-for-community-testing-whats-next">Community testing season 2 recap</a></p><h2><strong>xMetis Reward Flow &amp; Vesting Rules</strong></h2><p>Before we start the step-by-step guide, let’s dive into the rules and criteria for Metis community testing rewards.</p><h2><strong>Who is eligible for this community testing rewards?</strong></h2><p>Please note that while all community testing participants are eligible for xMetis rewards, the final selection of winners was determined based on the Elite Helmet. The specific criteria is outlined below:</p><p>1. Ranking Across the Top 33% of contributors.</p><p>2. Completion of all tasks in both Season 1 and Season 2 of the community testing.</p><p>3.  Adherence to fair play guidelines by Elite Helmets, specifically avoiding any form of Sybil attack strategies.</p><p>   - User didn’t claim test tokens directly from the bot strictly after 4 PM UTC on January 15th, without any instances of front-running.</p><p>   - User didn’t delete Telegram accounts after claiming to claim more test tokens with new accounts.</p><p>   - User didn’t employ any other type of sybil strategies.</p><p><em>*Addresses that acquired the Elite Helmet from secondary markets by 13:00 EST on March 25th were included in the snapshot.</em></p><h2><strong>Vesting Process</strong></h2><ul role="list"><li>Contributors can claim the rewards by choosing a vesting period between 1 month (minimum) and 12 months (maximum).</li></ul><h2><strong>Vesting Rules</strong></h2><ul role="list"><li><strong>Minimal Vest: </strong>1 month, which entitles the user to claim 30% of the total eligible amount.</li><li><strong>Maximum Vest: </strong>12 months, allowing the user to claim 100% of the total eligible amount.</li><li>Vesting periods from 1 to 12 months result in an eligible amount increase from 30% to 100% on a linear scale.</li><li>Users are not required to vest their entire eligible amount in one go; they have the flexibility to distribute the amount across different vesting periods.</li><li>It is possible to alter the vesting period, but doing so will reset the vesting process. Any contributions made during the previous vesting period will not be applied to the new period.</li></ul><h2><strong>Understanding Different Vesting Periods and Claimable Amounts</strong></h2><h2>‍<strong>1 Month Vesting:</strong></h2><p>Claim 30% of your total eligible amount.</p><h2><strong>6 Month Vesting:</strong></h2><p>Claim 65% of your total eligible amount. (Assuming linear progression)</p><h2><strong>12 Month Vesting:</strong></h2><p>Claim 100% of your total eligible amount.</p><h2><strong>Split Vesting Example:</strong></h2><p>Half vested for 12 months: Claim 50% (of the total amount) at 100%.</p><p>Half vested for 1 month: Claim 50% (of the total amount) at 30%.</p><h2><strong>Criteria for Distribution </strong>‍</h2><ul role="list"><li>The top 20 contributors will each receive $1,000, totaling $20,000.</li><li>The next 240 contributors will each be awarded $500, amounting to $120,000.</li><li>The next 240 contributors will each obtain $250, adding up to $60,000.</li><li>The next 1,500 contributors will each obtain $165, adding up to $247,500.</li><li>The next 10,000 contributors will each get $45, totaling $450,000.</li><li>The following 2,735 contributors will each obtain $35, adding up to $95,725.</li></ul><p><strong>Total rewards:</strong> $993,225 worth of Metis token at the current price</p><p>The conversion rate between Metis and USD for this reward is the average of Metis price in USD for the days between 2024-03-14 to 2024-03-20 (for open date, inclusively). A day&#x27;s price is the average between its lowest and highest price. The price data was obtained from <a href="https://coinmarketcap.com/currencies/metisdao/historical-data/">Coinmarketcap</a>. The final exchange rate stands at approximately 1 METIS = 106.79 USD.</p><h2><strong>How to claim your rewards</strong></h2><p><strong>1.</strong> Visit <a href="https://decentralize.metis.io/">https://decentralize.metis.io/</a> </p><p><strong>2.</strong> Connect your wallet</p><p><strong>3.</strong> In this section, you can check your Metis token balance, view the deadline for  claiming rewards and determine the amount of xMetis tokens you are eligible for.</p><figure class="w-richtext-figure-type-image w-richtext-align-fullwidth" style="max-width:1403pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image"><div><img src="../6507242ad3e4e6ff563301b1/6601d700636e6ee4a865ef82_suXjWyarivDchIjI3qFhhdgfBbYVb4HwlDYxNxm9Fa98rIcSTEcgny2vvhpRqaVZ7M2_lBMSITjEqpkgdr2NPzLaVdzojVbXcAvThDEE8AWN_wPgrGnrB_-8gufMsJllZTr1xawwznKIbL1dLGz-yXQ.png" alt=""></div></figure><p><strong>4.</strong> This table displays your vested positions. You can click on “Claim” your vested position here and then confirm the transaction in your wallet.</p><figure class="w-richtext-figure-type-image w-richtext-align-fullwidth" style="max-width:907pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image"><div><img src="../6507242ad3e4e6ff563301b1/6601d700da997229f651648a_n2J2SnEkJRI4piCENnsadzyRxVUGhDVp0Uw8bblYZrg9cRfzh0RnMtkpEOZcarqO7WtHoHz38JtYCQo-Qw5rEDDpJXJs8rAqK9FRWhwTuzNdu2NfH0mQd7SPEy9oA2X6CaOYJfzMg1TJrXgfXsFU4uk.png" alt=""></div></figure><p>After clicking on the &quot;Claim&quot; button, it will become disabled.</p><p>In case you notice that the “Claim” button is not clickable, there is another way to proceed. You can click on the “Reset” button instead. A pop-up window will appear, asking you to confirm the reset of your vested position. Please note  that once you do this, you won&#x27;t be able to undo the action, and the time passed until this point won&#x27;t count. If you agree to move forward then click on &quot;Continue&quot;.</p><figure class="w-richtext-figure-type-image w-richtext-align-fullwidth" style="max-width:1249pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image"><div><img src="../6507242ad3e4e6ff563301b1/6601d700216d81689fb8cbf0_mKOEAWQp6U1sPp0P6fmrQKIE0OMKcH-OIG2EmPbU1keDBwed0I8oK9rWIP_h05U0INzxTOQcHIZMfUcAvlR3AIuPEproRtxPnjTJ9BICO2UK9Rc7M21A55pA06pgKoAWtaUxU-mD6x8U4EH6QRYNprU.png" alt=""></div></figure><p><strong>5.</strong> After clicking on “Continue”, the redeem popup will appear as shown in the image below.</p><figure class="w-richtext-figure-type-image w-richtext-align-fullwidth" style="max-width:1015pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image"><div><img src="../6507242ad3e4e6ff563301b1/6601d700b163503c559f6dd1_-qdpBuLJthSeHoJ1i4bAZySdZHid2zvddoLsdmtq50luMb-r-AKrtkamB51R9PeCirJ1FxPfwl3-S-LBfV5dVFIs5eyR8wuawDTZoO4tcmyhrNoiW0-6akd_aOUi_oOkE9jNlMR-_2ZhlGXR9XeEgpI.png" alt=""></div></figure><p>The redeem popup will also appear when you click on “Claim xMetis&quot; here.</p><figure class="w-richtext-figure-type-image w-richtext-align-fullwidth" style="max-width:954pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image"><div><img src="../6507242ad3e4e6ff563301b1/6601d700b57ca09fca338348__CR7D51Uuv40lOOiICdI4nIphaPfi0ZI0IQqeY2juEpDOa_qPuyE1i58YDglarIy24ut74ad9Zgbk2BmVAyokox4mtWBe3Kblc1OMzutn4BzlaahdmELuw4wCD-JWO0XEOHQdnY4qnPdCIA2-VTCfZE.png" alt=""></div></figure><p><strong>6.</strong> Select your redeem duration. You have the option to redeem for less than the full amount by adjusting the duration of your redemption as shown in the image below.</p><figure class="w-richtext-figure-type-image w-richtext-align-fullwidth" style="max-width:762pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image"><div><img src="../6507242ad3e4e6ff563301b1/6601d70080e78a143dbb6fc6_q2wn_KHMqoxxVDPTHluCnQWxzVsQZawFrZGIt1vE4yw0y3-wSNVLMoV5wbzFG6KxYXwzkvw6dkHp6ie82zFxuX_LNPO0c8WgY19jcqR9n3SzaLgQmhr6qyAZucKj8mIIk_Pig4h2CUyMs-qf8rSPhSM.png" alt=""></div></figure><p>For example,If you decide to redeem your eligible xMetis token after 3 months, you&#x27;ll be able to claim 43.90% of it. </p><figure class="w-richtext-figure-type-image w-richtext-align-fullwidth" style="max-width:721pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image"><div><img src="../6507242ad3e4e6ff563301b1/6601d70003105a8e3c41777c_7XVWPeZJH9vY_G9ogm53NHW2LMq9pHaAPC29ol2382PdfRTPU44d3NdCCPaIfVXqy5eLkhCqWhKSRKC8ldr504lGJoBD1OwAt3bReqPIs6k6_L-r6JyZ5kavyMaWikLb8WhV_KkN3B331lywKN6P7NA.png" alt=""></div></figure><p><strong>7.</strong>  Click on “Redeem”  </p><figure class="w-richtext-figure-type-image w-richtext-align-fullwidth" style="max-width:864pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image"><div><img src="../6507242ad3e4e6ff563301b1/6601d70058c12a0c67a85b9e_lnqJzg93z8DhawZy6cxLymCTEmleWj-1DYVMU3ExX9ngp_QZTCw6z-hCmve-s_keZktI3uiE9BGC0rxA30Cfzyj0NMOZ6Yl1YRFxkMa37MfzFBOUwNN8CIQXfdbxsHW6qdYN2yx0AfM_LVb8-2Lkz28.png" alt=""></div></figure><p>Confirm transaction in your wallet</p><figure class="w-richtext-figure-type-image w-richtext-align-fullwidth" style="max-width:1348pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image"><div><img src="../6507242ad3e4e6ff563301b1/6601d70002470dead70b2d28_bY1kam9oF8uIwVzIfai0D8lPI7RPVPq6jggfSYoqyt9O5pxF57fxagFwiviT_-hcHcf5gX-cgotUGMGNYe7g5CJDrfWctgz_hG4DK83NwKtpgMDRqRT7hJUv_8dAdn65PN_AmcXl-DYpbcoZnBNLW7E.png" alt=""></div></figure><p>Please be informed that you can claim your xMetis tokens after a specific period of time that you have selected. The time period you choose to redeem your tokens will determine the amount of xMetis tokens that you can claim. You can redeem your tokens anytime between 1 to 12 months, and the percentage of eligible tokens that you can claim will vary between 30% to 100%.</p><figure class="w-richtext-figure-type-image w-richtext-align-fullwidth" style="max-width:1356pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image"><div><img src="../6507242ad3e4e6ff563301b1/6601d7007fa76a77cda5e2cb_sYT-a0YHvmG07I0c-J-wbfpF9DIoHdfHWVVyDZJjaQhu0R_VswCsXIm4Xp5U4y3Pfn7B9ULM8iHFAoUXLnO6Cae41o18QmU5tUqQVdUjxGNnQ4c8TscpRkVeTULBlxqFSaIdbODxgG-ilBEhCl03Q38.png" alt=""></div></figure><h2><strong>Congratulations now you just claimed your community testing reward! </strong></h2><h2><strong>SpringDrop₊˚ʚ 🌿 ₊˚✧ ﾟ</strong></h2><p>If you didn&#x27;t catch the decentralized sequencer community testing, worry not—the journey is barely getting started! A fresh opportunity awaits with the Metis SpringDrop (previously known as MarchDrop), an exciting incentives campaign designed to retroactively reward our active ecosystem users. Featuring many top-tier, new Metis protocols like Jumper Exchange, Hercules, Artemis Finance, and Enki Protocol, users will be able to engage in our on-chain activities and start earning Spring Points, especially through early participation (more details soon). Wondering what the SpringDrop entails and how you can emerge as a big winner? Make sure to follow Metis on all social media channels to not miss out on the SpringDrop campaign notifications!</p><p>Metis finally became the first Ethereum Layer 2 with a decentralized sequencer, a milestone made possible by your invaluable participation and contributions to our community testing. This marks the beginning of an exciting new chapter for Metis, with plenty more groundbreaking updates on the horizon.</p><p>Should you have any questions or require assistance claiming your Community Testing rewards, if you have any questions or encounter any challenges, we encourage you to join our testing group at <a href="https://t.me/metistesting">Community testing Chat</a>  for support and assistance. And as you celebrate your win, remember to spread the joy and tag @MetisL2 on X! We can&#x27;t wait to hear about your journey with us.</p><p>‍</p></div></div><div class="block-blog-2"><div class="text-widget-blog font-color-theme">Related Post</div><div class="widget-blogs w-dyn-list"><div role="list" class="collection-blogs w-dyn-items"><div role="listitem" class="collection-item-6 w-dyn-item"><a href="/blog/tech-thursday-locker-contracts" class="card-widget w-inline-block"><img src="../6507242ad3e4e6ff563301b1/6507242bd3e4e6ff563306a7_65030aebb7451ac6ebfaa8f8_64ff6a5c64bd2fd09dcf5413_0_q4OSrtTOyRr2l4NV.png" loading="lazy" alt="" sizes="(max-width: 479px) 83vw, (max-width: 767px) 45vw, (max-width: 991px) 36vw, 345px" srcset="../6507242ad3e4e6ff563301b1/6507242bd3e4e6ff563306a7_65030aebb7451ac6ebfaa8f8_64ff6a5c64bd2fd09dcf5413_0_q4OSrtTOyRr2l4NV-p-500.png 500w, ../6507242ad3e4e6ff563301b1/6507242bd3e4e6ff563306a7_65030aebb7451ac6ebfaa8f8_64ff6a5c64bd2fd09dcf5413_0_q4OSrtTOyRr2l4NV.png 720w" class="image-6"><div class="block-side-info side"><div fs-cmsfilter-field="topic" class="topic-text side">Community</div><div fs-cmsfilter-field="title" class="title-text">TECH THURSDAY — LOCKER CONTRACTS</div></div></a></div><div role="listitem" class="collection-item-6 w-dyn-item"><a href="/blog/metis-liquid-staking-blitz-lsb" class="card-widget w-inline-block"><img src="../6507242ad3e4e6ff563301b1/65c3b72726438f15422b7900_IMG_9550.PNG" loading="lazy" alt="" sizes="(max-width: 479px) 83vw, (max-width: 767px) 45vw, (max-width: 991px) 36vw, 345px" srcset="../6507242ad3e4e6ff563301b1/65c3b72726438f15422b7900_IMG_9550-p-500.png 500w, ../6507242ad3e4e6ff563301b1/65c3b72726438f15422b7900_IMG_9550-p-800.png 800w, ../6507242ad3e4e6ff563301b1/65c3b72726438f15422b7900_IMG_9550-p-1080.png 1080w, ../6507242ad3e4e6ff563301b1/65c3b72726438f15422b7900_IMG_9550-p-1600.png 1600w, ../6507242ad3e4e6ff563301b1/65c3b72726438f15422b7900_IMG_9550.PNG 1920w" class="image-6"><div class="block-side-info side"><div fs-cmsfilter-field="topic" class="topic-text side">Technology</div><div fs-cmsfilter-field="title" class="title-text">Metis Liquid Staking Blitz (LSB)</div></div></a></div></div></div><div class="wrapper-socials"><div class="text-widget-blog margin font-color-theme">Follow us on</div><div class="block-socials filter-invert-theme"><a href="https://twitter.com/MetisL2" target="_blank" class="icon-social x w-inline-block"></a><a href="https://www.youtube.com/@Metis_L2" target="_blank" class="icon-social yt w-inline-block"></a><a href="https://metisl2.medium.com/" target="_blank" class="icon-social m w-inline-block"></a><a href="https://t.me/MetisL2" target="_blank" class="icon-social t w-inline-block"></a></div></div><div class="block-subs"><div class="text-widget-blog white">Subscribe to Newsletter</div><div class="form-subs w-form"><form id="wf-form-Newsletter-blogs" name="wf-form-Newsletter-blogs" data-name="Newsletter blogs" method="get" class="form-4" data-wf-page-id="6507242ad3e4e6ff563301c0" data-wf-element-id="4fe03e51-7d28-539c-2bd5-15dca48b3f29"><input class="field-sub w-input" maxlength="256" name="email" data-name="email" placeholder="Email" type="email" id="email-3" required=""><div id="form-newsletter-home" class="html-embed-3 w-embed w-script"><input type="hidden" id="hiddenKey11" name="formSrc1" data-name="formSrc1" value="Home">
+<input type="hidden" id="hiddenKey12" name="formIdA" data-name="formIdA" value="">
+<input type="hidden" id="hiddenKey13" name="formUrl1" data-name="formUrl1" value="">
+<input type="hidden" id="hiddenKey14" name="formRef1" data-name="formRef1" value="">
+
+
+<script>
+
+/*<--------This first constant is used by the hidden field function and the form submit*/
+const formID02 = 'wf-form-Newsletter-blogs'
+
+/*<---------Google Script part starts here*/
+const deskForm2 = document.forms[formID02]
+
+
+/*<---------Cut and paste the URL that pops up in the window when you "deploy web app"*/
+var gScriptURL = 'https://script.google.com/macros/s/AKfycbx5XsJzWAxQPhu_Ztx5JOQkMWqlmKhHjSCGxX19eryXkfUAknyrwHaK3EqzSmyj1zfu/exec'
+
+/*<--------(when the) "form ID" . is submitted, ping the URL, encrypt, and send it*/
+deskForm2.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(gScriptURL, { method: 'POST', body: new FormData(deskForm2)})
+      .then(response =>  response)
+      .catch(error => console.error('Error!', error.message))
+  })
+/*<---------End the call to Google Script*/
+
+/*<---------"look for html elements given this ID and assign it's value to this variable*/
+{
+document.getElementById('hiddenKey12').value = formID02;
+document.getElementById('hiddenKey13').value = location.pathname;
+document.getElementById('hiddenKey14').value = document.referrer;
+
+/*<--------note: if you link directly to the page url with your Form from the browser, there will be no data for the document.referrer or the hidden input you named hiddenKey14.. in this case... formRef1.  Otherwise you'll see the full URL of the last page they were on.-------*/
+}
+</script></div><input type="submit" data-wait="Please wait..." class="button-cta btn-blog w-button" value="Subscribe"></form><div class="w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div></div></div></div></div></section><section class="section footer"><div class="footer-container"><div class="footer-menu"><a href="#" class="w-inline-block"><img src="../6507242ad3e4e6ff563301e4/65456c8e4f6aaae6afc5eb7f_main%20Logotype.png" loading="lazy" sizes="(max-width: 479px) 100vw, 120px" srcset="../6507242ad3e4e6ff563301e4/65456c8e4f6aaae6afc5eb7f_main%2520Logotype-p-500.png 500w, ../6507242ad3e4e6ff563301e4/65456c8e4f6aaae6afc5eb7f_main%2520Logotype-p-800.png 800w, ../6507242ad3e4e6ff563301e4/65456c8e4f6aaae6afc5eb7f_main%2520Logotype-p-1080.png 1080w, ../6507242ad3e4e6ff563301e4/65456c8e4f6aaae6afc5eb7f_main%2520Logotype-p-1600.png 1600w, ../6507242ad3e4e6ff563301e4/65456c8e4f6aaae6afc5eb7f_main%2520Logotype-p-2000.png 2000w, ../6507242ad3e4e6ff563301e4/65456c8e4f6aaae6afc5eb7f_main%2520Logotype-p-2600.png 2600w, ../6507242ad3e4e6ff563301e4/65456c8e4f6aaae6afc5eb7f_main%20Logotype.png 3001w" alt="" class="image-2"></a><div class="footer-botons-container"><div class="col"><a href="/platform" class="button-footer w-button">Developer</a><a href="/blog" class="button-footer w-button">Knowledge</a><a href="/jobs" class="button-footer w-button">Careers</a><a href="/newsletter" class="button-footer w-button">Subscribe</a><a href="/blog" class="button-footer w-button">Q&amp;A</a><a href="/brandassets" class="button-footer w-button">Brand Assets</a></div><div class="col"><a href="/community" class="button-footer w-button">Community</a><a href="/company" target="_blank" class="button-footer w-button">Company</a><a href="/ecosystem" class="button-footer w-button">Ecosystem</a><a href="https://drive.google.com/file/d/1wnNbisUREP_gSX1Vfl1Fjmi9PpObmZZQ/view" target="_blank" class="button-footer w-button">Terms &amp; conditions</a><a href="/events" class="button-footer w-button">Events</a><a href="/contact-us" class="button-footer w-button">Contact</a></div></div></div><div class="footer-social-media"><a href="https://twitter.com/MetisL2" target="_blank" class="icon-social-media w-inline-block"><img src="../6507242ad3e4e6ff563301e4/6507242bd3e4e6ff5633034a_footer%20x.svg" loading="lazy" alt="" class="img-footer-social"></a><a href="https://t.me/MetisL2" target="_blank" class="icon-social-media w-inline-block"><img src="../6507242ad3e4e6ff563301e4/654a61f02ec3c3645459a5c4_blue%20tele.svg" loading="lazy" alt="" class="img-footer-social"></a><a href="https://metisl2.medium.com/" target="_blank" class="icon-social-media w-inline-block"><img src="../6507242ad3e4e6ff563301e4/654a6203ce91c879d15dfa8d_blue%20medium.svg" loading="lazy" alt="" class="img-footer-social"></a><a href="https://discord.com/invite/metis" target="_blank" class="icon-social-media w-inline-block"><img src="../6507242ad3e4e6ff563301e4/654a620fb2b4a90babbc7faa_blue%20discord.svg" loading="lazy" alt="" class="img-footer-social"></a><a href="https://github.com/MetisProtocol" target="_blank" class="icon-social-media w-inline-block"><img src="../6507242ad3e4e6ff563301e4/6507242bd3e4e6ff56330366_footer%20github.svg" loading="lazy" alt="" class="img-footer-social"></a><a href="https://www.youtube.com/@Metis_L2" target="_blank" class="icon-social-media w-inline-block"><img src="../6507242ad3e4e6ff563301e4/654a61d3727c6023d1b3e380_blue%20you.svg" loading="lazy" alt="" class="img-footer-social"></a><a href="https://www.instagram.com/metisl2/" target="_blank" class="icon-social-media w-inline-block"><img src="../6507242ad3e4e6ff563301e4/654a61e8cee4bd888e4a458f_blue%20telegram.svg" loading="lazy" alt="" class="img-footer-social"></a></div></div></section><div class="script-theme w-embed w-script"><script>
+
+    ////Theme Script vars//////
+    const d = document;
+    const $btnTheme = d.querySelector('.theme')
+    const themeName = "metis-theme"
+    
+    //prevents the page from showing white for a second
+    function showContent() {
+      document.body.style.visibility = 'visible';
+      document.body.style.opacity = 1;
+    }
+    
+    //function to save the page theme to localstorage
+    function localTheme() {
+        if (localStorage.getItem(themeName) === null) {
+            localStorage.setItem(themeName, "dark");
+        }
+    }
+    
+    localTheme()
+    
+    
+    //function that is responsible for changing the theme when you click the theme switch button
+    function themeChange(classtarget, classtheme) {
+    
+        function switchtheme(classone, classtwo) {
+            let anchorclass = d.querySelectorAll(classone)
+            anchorclass.forEach(element => {
+                element.classList.toggle(classtwo)
+            });
+        }
+    
+        if (localStorage.getItem(themeName) !== "light") {
+            switchtheme(classtarget, classtheme) 
+    
+        }
+    
+    
+        document.addEventListener('click', (e) => {
+    
+        if (e.target.matches(".theme")) {
+            switchtheme(classtarget, classtheme)
+        }
+          
+    
+        })
+    
+    }
+    
+    //function that is responsible for changing the theme when you click the theme switch button
+    document.addEventListener('click', (e) => {
+    
+        if (e.target.matches(".theme")) {
+            if (localStorage.getItem(themeName) === "light") {
+                localStorage.setItem(themeName, "dark");
+            } else {
+                localStorage.setItem(themeName, "light");
+            }
+            
+        }     
+    
+    })
+    
+    
+    // Buton theme tag (All pages)
+    themeChange(".theme","btn-theme-bg")
+    
+    //Navbar theme tag (All pages)
+    themeChange(".navbar", "bg-theme-nav")
+    
+    //Navbar logo tag (All pages)
+    themeChange(".image-nav", "hidden-theme")
+    
+    //Navbar bg tag (All pages)
+    themeChange(".nav-menu", "bg-theme-nav")
+    
+    //Navbar link tag (All pages)
+    themeChange(".menu-button", "nav-font-theme")
+    
+    //Menu drop button Mobile tag (All pages)
+    themeChange(".menu-button-2", "bg-theme-nav")
+    
+    themeChange(".icon", "nav-font-theme")
+    
+    //Fund change img
+    //themeChange(".img-fund", "hidden")
+    
+    //themeChange(".button-center-fund", "btn-black")
+    
+    
+    //Menu navbar hover tag (All pages)
+    themeChange(".mega-menu-platform", "bg-theme-nav")
+    
+    //Menu navbar hover tag (All pages)
+    themeChange(".mega-menu-ecosystem", "bg-theme-nav")
+    
+    //Menu navbar hover tag (All pages)
+    themeChange(".mega-menu-more", "bg-theme-nav")
+    
+    //Menu navbar hover tag (All pages)
+    themeChange(".mega-menu-company", "bg-theme-nav")
+    
+    //Menu navbar hover tag (All pages)
+    themeChange(".mega-menu-governance", "bg-theme-nav")
+    
+    //Link mega menu tag (All pages)
+    themeChange(".link-m-mega", "nav-font-theme")
+    
+    //dynamic data tag (Home page)
+    themeChange(".card-home", "card-theme")
+    
+    //card team section tag (Company page)
+    themeChange(".card-team-color", "card-theme")
+        
+    //Body bg tag (All pages)
+    themeChange("body", "bg-theme-dark")
+    
+    //BG grey color tag (All pages)
+    themeChange(".section-theme", "bg-theme-section")
+        
+    //block text invert color tag (All pages)
+    themeChange(".font-color-theme-invert","font-c-theme-invert")
+    
+    //Text color tag (All pages)
+    themeChange(".font-color-theme", "font-color-theme-white")
+    
+    //Cards gradients invert tag (All pages)
+    themeChange(".card-invert-theme","card-i-theme")
+    
+    //Slider invert color tag  (Pages with swiper.js)
+    themeChange(".slide-nav","invert-theme")
+    
+    //Buton invert color tag (All pages)
+    themeChange(".button-invert-theme","btn-invert-theme")
+    
+    //Invert bullets (Pages with swiper.js)
+    themeChange(".wrapper-bullet-5","invert-theme")
+    
+    //Invert bullets (Pages with swiper.js)
+    themeChange(".wrapper-bullet-4","invert-theme")
+    
+    //Field theme tag (All pages with fields)
+    themeChange(".field-theme","field-theme-white")
+    
+    //Bg div's invert tag (All pages)
+    themeChange(".filter-invert-theme","invert-theme")
+    
+    //BG #000 div's tag (All pages)
+    themeChange(".bg-theme","bg-theme-dark")
+    
+    //Card theme change tag (Ecosystem page)
+    //themeChange(".card-eco-theme","card-e-theme")
+        
+    //Hidden div's tag (All pages)
+    themeChange(".block-hidden-theme","b-h-theme")
+    
+    //select menu filter tag (Ecosystem page)
+    themeChange(".select-menu","bg-theme-invert")
+    
+    //Mobile menu bg tag (Knowledge page)
+    themeChange(".block-mobile-filter","invert-theme")
+    
+    //Imagen invert filter tag (All pages)
+    themeChange(".img-theme-invert","invert-theme")
+    
+    //Dropdown anvbar menu images tag (All pages)
+    themeChange(".img-menu-invert","invert-theme")
+    
+    //Field search in men mobile (Knowledge page)
+    themeChange(".field-search-mobile","invert-theme")
+    
+    //Change img theme map advocate (Home page)
+    themeChange(".img-map","hidden-theme")
+    
+    //Icon change theme map advocate (Haome page)
+    themeChange(".icon-map","hidden-icon")
+    
+    //Radio theme change menu mobile tag (Ecosystem page)
+    themeChange(".radio-h","invert-normal")
+    
+    //Community card theme change tag (Community page)
+    themeChange(".community-invert","comm-invert")
+    
+    //Community card theme change button tag (Community page)
+    themeChange(".button-social-media","d-btn")
+    
+    //Theme tab slider (Home page)
+    themeChange(".tab-slider","tab-dark")
+
+    //Text invert theme for mobile navbar (All pages)
+    themeChange(".text-m","text-invert")
+    
+    //Text invert (Marathon page)
+    themeChange(".list-text-marathon","list-invert")
+    
+    //CEX CARD invert (Bridge page)
+    themeChange(".tokens-button","theme-b-dark")
+    themeChange(".card-cex","card-cex-b")
+    
+    //COLOR CHANGE ONLY METIS SEQUENCER
+    themeChange(".sq-switch","sq-c-theme")
+    
+    themeChange(".button-sq","button-sq-i")
+    
+    themeChange(".image-20","img-hidden")
+   
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    
+    //??
+    themeChange(".wrapper-max-14","line-theme")
+    
+    //??
+    themeChange(".eco-img","on")
+    
+    //??
+    themeChange(".ecos-img-theme","off")
+        
+    //??
+    themeChange(".card-hosted","card-dark")
+        
+    //?
+    themeChange(".tag-temple","invert-theme")
+
+    //??
+    themeChange(".info-eco-theme","info-e-theme")
+
+    //??
+    themeChange(".btn-theme-mobile","invert-theme")
+
+    //??
+    themeChange(".testimonal-theme","t-theme")
+
+    //??
+    themeChange(".animation", "invert-theme")
+    
+    //??
+    themeChange(".second", "button-theme-white")
+
+    //??
+    themeChange(".tab-theme","tab-invert-color")
+    
+    
+    window.addEventListener('load', function(){
+        themeChange(".w-slider-dot","white-dot")
+    })	
+    
+    
+    ///*prevents the page from showing white for a second*/
+    window.addEventListener('DOMContentLoaded', function () {   
+    showContent();   
+    })
+    
+ </script></div><script src="../js/jquery-3.5.1.min.dc5e7f18c8.js?site=6507242ad3e4e6ff563301e4" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="../6507242ad3e4e6ff563301e4/js/webflow.09dc1b871.js" type="text/javascript"></script><script>
+////////////////////script valid email///////////////////////
+$(document).ready(function() {
+  // make an array of invalid domains
+  const invalidDomains = ['email.tst','example.com'];
+
+  const submitBtn = $('.btn-blog');
+  submitBtn.click(()=>{
+    const email = $('.field-sub');
+    const domainPart = email.val().split('@')[1]; 
+  
+    if(invalidDomains.indexOf(domainPart) !== -1) {
+      email.val('');
+      email.attr('placeholder','Please enter a valid email');
+      return false;
+    }
+    else{	
+      return true;
+    }
+  });
+});
+
+</script></body></html>
